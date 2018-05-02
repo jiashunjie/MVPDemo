@@ -16,7 +16,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 public class RetrofitFactory {
 
     public static final String URL = "http://192.168.1.101:8080/";
-    //    public static final String URL = "http://happydo.cn/";
+  
 
     protected static APIFunction API() {
         return API(null);
